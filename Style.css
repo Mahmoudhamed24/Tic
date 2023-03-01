@@ -6,7 +6,7 @@
   
   body {
     font-family: system-ui;
-    background-color: #b78e8e;
+    background-color: #c77979;
   }
   
   .game {
@@ -53,9 +53,8 @@
   /* End of the animation */
   
   .neonText {
-    text-align: center;
-    color: white;
-    text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 0px #fff, 0 0 0px #610eb5,
+    color: rgb(85, 43, 43);
+    text-shadow: 0 0 7px #412a2a, 0 0 10px #3e2020, 0 0 0px #7a2c2c, 0 0 0px #610eb5,
       0 0 82px #610eb5, 0px 0px 8px #610eb5, 0 0 10px #610eb5, 0 0 0px #610eb5;
     font-size: 5rem;
     display: flex;
@@ -72,7 +71,7 @@
   
   .neonText-2 span {
     font-weight: 900;
-    color: #fe0000;
+    color: #1975ec;
     text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 0px #fff, 0 0 0px #1975ec,
       0 0 82px #1975ec, 0px 0px 8px #1975ec, 0 0 10px #1975ec, 0 0 0px #1975ec;
     font-size: 5rem;
@@ -89,12 +88,13 @@
   }
   
   .main .box {
-    color: #c09f1c;
-    text-shadow: 0 0 7px #fff, 0 0 6px #fff, 0 0 0px #fff, 0 0 0px #1975ec,
-      0 0 82px #1975ec, 0px 0px 20px #1975ec, 0 0 24px #1975ec, 0 0 15px #1975ec;
-    
-    background-color: #ba5252;
-    box-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 0px #fff, 0 0 0px #1975ec,
+    color: #1975ec;
+    text-shadow: 0 0 7px #714848, 0 0 6px #3f2a2a, 0 0 0px #fff, 0 0 0px #1975ec,
+      0 0 82px #1975ec, 0px 0px 20px #1975ec, 0 0 24px #3d4f67, 0 0 15px #1975ec;
+    width: 25%;
+    height: 10rem;
+    background-color: #5c3d3d;
+    box-shadow: 0 0 7px #603f3f, 0 0 10px #fff, 0 0 0px #1f1010, 0 0 0px #1975ec,
       0 0 30px #1975ec, 0px 0px 8px #1975ec, 0 0 10px #1975ec, 0 0 0px #1975ec;
     display: flex;
     justify-content: center;
@@ -310,7 +310,6 @@
       margin-top: 4rem;
       font-size: 3rem;
     }
-
     .game {
       margin: 1rem auto;
     }
@@ -355,7 +354,7 @@
     .main {
       margin-left: -56px;
     }
-  }
+  }  
   .footer {
     padding: 15px;;
     text-align: center;
@@ -363,11 +362,9 @@
     width: auto;
     height: 90px;
     margin-top: 20px;
-    background-color: #ffffff;
     color: #fff;
     justify-content: space-between;
     margin-bottom: 0px;
-    border: 5px #610eb5 solid ;  
 
 }
 .social {
@@ -381,3 +378,8 @@
     scroll-behavior: smooth;
     font-size: 30px;
 }
+
+
+
+
+
